@@ -1,0 +1,66 @@
+.main {
+  display: flex;
+  margin-top: 1.5rem;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.post {
+  width: 50em;
+  opacity: 0.9;
+  margin-bottom: 3em;
+  padding-bottom: 1.5em;
+  transition: opacity 0.3s ease;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.postTitle:hover {
+  color: green;
+}
+
+.post:hover {
+  opacity: 1;
+}
+
+.post img {
+  padding: 1rem;
+  width: 100%;
+}
+
+.post h1 {
+  padding-bottom: 1rem;
+  font-size: 1.5em;
+  cursor: pointer;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.paginator {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: rgb(36, 36, 36);
+}
+
+.paginator div {
+  margin: 1.75em;
+  color: #fbfbfd;
+}
+
+.paginator .active {
+  cursor: pointer;
+  color: #fbfbfd;
+}
+
+.paginator .disabled {
+  cursor: not-allowed;
+  color: rgb(128, 128, 128);
+}
+
+@media (max-width: 800px) {
+  .post {
+    width: 90%;
+  }
+}
