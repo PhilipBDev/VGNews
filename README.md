@@ -10,7 +10,7 @@
     </p>
 
 <p align="center">
-    <img src="preview.png">
+    <img src="public/preview.png">
 </p>
 
 <!-- TABLE OF CONTENTS -->
